@@ -1,0 +1,85 @@
+
+body
+{
+    background-color:hsl(0, 0%, 95%);
+    display: flex;
+    justify-content:center;
+}
+
+#container
+{
+    border-radius:15px;
+    margin-top:40px;
+    display: flex;
+    flex-direction: row;
+    width:750px;
+    
+}
+
+#container div
+{
+    
+    padding:40px;
+}
+
+
+#SEDANS
+{
+    border-radius:15px 0px 0px 15px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+#SUVS
+{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#LUXURY
+{
+    border-radius:0px 15px 15px 0px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+
+h4
+{
+    
+    color:hsl(0, 0%, 95%);
+    font-size:25px;
+}
+
+p
+{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size:15px;
+    margin-bottom:90px;
+    line-height:1.4em;
+}
+
+button
+{
+    border-radius: 20px;
+    border:solid;
+    border-color:hsl(0, 0%, 95%);
+    font-weight:bold;
+    width:70%;
+    padding:7px;
+    
+}
+
+#SEDANS button
+{
+ color: hsl(31, 77%, 52%);
+}
+
+#SUVS button
+{
+ color: hsl(184, 100%, 22%);
+}
+
+#LUXURY button
+{
+ color: hsl(179, 100%, 13%);
+}
+
